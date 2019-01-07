@@ -1,0 +1,58 @@
+#players {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#desc {
+  margin: 50px;
+}
+
+#players td, #players th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#players tr:nth-child(even){background-color: #f2f2f2;}
+
+#players tr:hover {background-color: #ddd;}
+
+#players th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.arc {
+  cursor: pointer;  
+}
+
+.arc text {
+  font: 11px sans-serif;
+  text-anchor: middle;
+  font-weight: bold;
+}
+
+.detail {
+  background-color: aqua;
+  padding: 10px;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+.arc path {
+  stroke: #fff;
+}
+.bar {
+  display: inline
+}
